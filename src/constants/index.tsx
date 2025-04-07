@@ -1,76 +1,89 @@
-import project1 from "../assets/projects/project-1.jpg";
+import project1 from "../assets/projects/CookMeLogo.png";
 import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project3 from "../assets/projects/THakarni.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const HERO_CONTENT = ` Motivated Junior Full Stack Developer with a strong foundation in Java
+ and web technologies, recently transitioned from a marketing background after completing an intensive Java Bootcamp at Neuefische. 
+ Skilled in building scalable applications using Java, Spring Boot, React, and MongoDB.
+  Passionate about turning ideas into real-world solutions through code, and driven by a constant desire to learn, grow,
+   and dive deeper into modern technologies. Eager to contribute to meaningful projects while expanding my skills
+    in a collaborative, agile environment.
+`;
 
+export const ABOUT_TEXT = `I am a motivated and curious Junior Full Stack Developer with a background in marketing and a passion 
+for turning ideas into reality through technology. My journey into web development began while working closely
+ with developer teams in my previous roles—seeing how they transformed ideas into functional digital products sparked my interest
+  and gave me the courage to change careers.
+
+After completing a Java Bootcamp at Neuefische, I gained hands-on experience in building full-stack applications
+ using Java, Spring Boot, React, and MongoDB, alongside tools like Node.js, MySQL, and PostgreSQL. 
+ I’m constantly inspired by innovative ideas, and I love helping others bring their visions to life—combining my experience in branding and marketing strategy with my growing technical skills to create meaningful digital solutions.
+
+I thrive in collaborative environments, enjoy learning new technologies,
+ and am driven by the desire to build impactful applications that make a difference.`;
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    year: "2024",
+    role: "Student Java Bootcamp",
+    company: "NeueFishe",
+    description: `Completed comprehensive training in both backend and frontend development, focusing on Java, Spring (Spring Web, Spring Data, Spring Security), Docker, and MongoDB. Gained practical experience in JavaScript, React, HTML, and CSS, 
+    applying a mobile-first approach and working in agile teams using Scrum, Git, and pair programming.`,
+    technologies: ["Java","TypeScript","JavaScript", "React.js", "Next.js", "mongoDB","Docker","Git", "GitHub","Postman"],
   },
   {
     year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    role: "Junior Marketing Manager",
+    company: "Wall Street English",
+    description: `I have hands-on experience in web content management and technical integration using WordPress, 
+    as well as the development and implementation of data-driven marketing strategies that increased engagement by 35%.
+     I successfully managed events, optimized budgets, and collaborated with teams and agencies to align marketing 
+     initiatives with stakeholder goals, 
+    boosting lead generation and brand awareness..`,
+    technologies: ["Html", "CSS", "Wordpress", "Elementor","Hubspot","Google_Analytic","FacebookAds","Canva"],
   },
+  {
+    year: "2019 - 2020",
+    role: "Junior Web Marketer",
+    company: "Web Media International",
+    description: `I was responsible for the technical integration and maintenance of website content
+     to enhance user experience, and I developed and implemented successful SEO strategies that led to top Google rankings.
+      I collaborated with developers and designers to optimize web structures, 
+      led a team in strategic content optimization, and executed social media and email campaigns to increase conversion rates.`,
+    technologies: ["Wordpress", "Html", "Css", "Elementor","Google Search Console","SEMrush",
+      "Google Ads","Meta Ads Manager","Mailchimp","GetResponse","Canva","Mural"],
+  }
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Web Application",
     image: project1,
+    link: "https://myapp-cookme.onrender.com/",
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A fully functional web application that generates recipes based \n" +
+        "on user-provided ingredients",
+    technologies: ["HTML", "CSS", "React", "TypeScript" ,"Java","Spring Boot", "MongoDB"],
   },
   {
     title: "Task Management App",
     image: project2,
+    link: "https://myapp-cookme.onrender.com/",
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
     technologies: ["HTML", "CSS", "Angular", "Firebase"],
   },
   {
-    title: "Portfolio Website",
+    title: "Thakarni",
     image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+    link: "https://drive.google.com/file/d/1ececiPudTXi_WSx6RhDW5ol1ntdv6pym/view",
+    description: "A planner designed to help people become more organized and stay on top of their tasks and goals.",
+    technologies: ["Canva", "Facebook Ads", "Instagram Ads", "Mailchimp", "Video Editing"],
+  }
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Hamburg, Germany",
+  phoneNo: "+4915752380073",
+  email: "malekchenennaoui@gmail.com",
 };
