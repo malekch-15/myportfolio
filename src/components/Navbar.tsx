@@ -2,6 +2,7 @@ import logo from"../assets/kevinRushLogo.png"
 import {FaLinkedin} from "react-icons/fa"
 import {FaGithub} from "react-icons/fa"
 import {FaInstagram} from "react-icons/fa"
+import {FaEnvelope} from "react-icons/fa"
 export default function Navbar () {
  return(
  <>
@@ -10,9 +11,13 @@ export default function Navbar () {
    <img className="mx-2 w-10" src={logo} alt="logo"/>
   </div>
   <div className=" m-8 flex items-center text-2xl justify-between gap-4">
-   <FaLinkedin/>
-   <FaInstagram/>
-   <FaGithub/>
+   <a href="https://www.linkedin.com/in/malek-chenennaoui-073269161/"
+       target="_blank"
+       rel="noopener noreferrer"> <FaLinkedin/></a>
+
+   <a href="https://www.instagram.com/tha.karni/"><FaInstagram/></a>
+   <a  href="mailto:malekchenennaoui@gmail.com" > <FaEnvelope/></a>
+   <a href="https://github.com/malekch-15"> <FaGithub/> </a>
   </div>
  </nav>
  </>)
