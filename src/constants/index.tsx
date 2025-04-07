@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/project-1.jpg";
+import project1 from "../assets/projects/CookMeLogo.png";
 import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project3 from "../assets/projects/THakarni.jpg";
+
 
 export const HERO_CONTENT = ` Motivated Junior Full Stack Developer with a strong foundation in Java
  and web technologies, recently transitioned from a marketing background after completing an intensive Java Bootcamp at Neuefische. 
@@ -57,33 +57,29 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Web Application",
     image: project1,
+    link: "https://myapp-cookme.onrender.com/",
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A fully functional web application that generates recipes based \n" +
+        "on user-provided ingredients",
+    technologies: ["HTML", "CSS", "React", "TypeScript" ,"Java","Spring Boot", "MongoDB"],
   },
   {
     title: "Task Management App",
     image: project2,
+    link: "https://myapp-cookme.onrender.com/",
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
     technologies: ["HTML", "CSS", "Angular", "Firebase"],
   },
   {
-    title: "Portfolio Website",
+    title: "Thakarni",
     image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+    link: "https://drive.google.com/file/d/1ececiPudTXi_WSx6RhDW5ol1ntdv6pym/view",
+    description: "A planner designed to help people become more organized and stay on top of their tasks and goals.",
+    technologies: ["Canva", "Facebook Ads", "Instagram Ads", "Mailchimp", "Video Editing"],
+  }
 ];
 
 export const CONTACT = {

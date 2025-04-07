@@ -1,5 +1,5 @@
 import {HERO_CONTENT} from '../constants'
-import porfilePic from "../assets/MalekChenennaoui.png"
+import porfilePic from "../assets/MalekChenennaouiProfile.png"
 import { motion } from "motion/react"
 export default function Hero (){
     const container =(delay:number) => ({
