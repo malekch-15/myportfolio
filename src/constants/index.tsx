@@ -66,6 +66,15 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "TypeScript" ,"Java","Spring Boot", "MongoDB"],
   },
   {
+    title: " Concept UI UX mobile app design.",
+    image: project1,
+    link: "https://www.figma.com/proto/BkBoPQyD7z7qfLDybfsYte/CookMeApp?node-id=7-888&p=f&t=NjsLpKuXAPYMmhUE-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1",
+    description:
+        "Design of the prototype for the CookMe recipe app  \n" +
+        "with a focus on creating an intuitive and user-friendly interface.",
+    technologies: ["Figma"],
+  },
+  {
     title: "Task Management App",
     image: project2,
     link: "https://myapp-cookme.onrender.com/",
